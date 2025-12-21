@@ -61,3 +61,26 @@ This structure helps recruiters quickly explore sections of your knowledge. :con
 1. Clone this repository:
    ```bash
    git clone https://github.com/rohitranvir/Data-Science.git
+
+2. Install Python and packages (NumPy, Pandas, Matplotlib, Seaborn, Scikit-Learn):
+   pip install numpy pandas matplotlib seaborn scikit-learn
+
+3. Open Jupyter Notebook or VS Code to explore each topic.
+   🛠 Tools & Technologies
+   ✔ Python (core)
+   ✔ Jupyter Notebook
+   ✔ NumPy
+   ✔ Pandas
+   ✔ Matplotlib
+   ✔ Seaborn
+   ✔ Scikit-Learn
+   
+📫 Connect With Me
+
+GitHub: https://github.com/rohitranvir
+
+LinkedIn: https://www.linkedin.com/in/rohit-ranveer
+
+⚠️ Note
+
+This is a living repository — I will continue to improve examples and add advanced topics (like Pandas projects, ML models, SQL practice, and more) over time.
