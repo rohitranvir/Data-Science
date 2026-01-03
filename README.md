@@ -1,86 +1,135 @@
-# 📊 Data Science Learning Progress
+# Data Science – Structured Learning Repository
 
-This repository tracks my **structured, topic-wise learning and practice** in Data Science, with hands-on code and explanations for key concepts. I’m building this to *track progress*, *practice real code*, and *showcase a professional portfolio*.
+This repository contains my structured, topic-wise learning and hands-on practice in Data Science and AI, implemented primarily using Python and its core data ecosystem.
 
----
-
-## 🧠 Overview
-
-This repo includes exercises, examples, and topic folders that are part of my journey toward becoming a Data Scientist. Each folder represents a core subject area with practice code and notes.
+The focus of this repository is concept clarity, correctness, and practical implementation, not polished production systems.
 
 ---
 
-## 📂 Repository Structure
+## Repository Objective
+
+The goal of this repository is to:
+
+- Build a strong foundation in Data Science
+- Practice concepts through code, notebooks, and experiments
+- Maintain a well-organized reference for revision and continuous learning
+- Track progress over time rather than present finished projects
+
+This is a learning repository, not a deployment-ready or commercial codebase.
+
+---
+
+## Repository Structure
 
 Data-Science/
 │
 ├── Python/
-│ ├── 01_Basics/ — Basics of Python
-│ ├── 02_Strings/ — String operations
-│ ├── 03_Lists_Tuples_Sets/— Collections fundamentals
-│ ├── 04_Dictionary/ — Dictionary structures
-│ ├── 05_Functions/ — Functions & modular code
-│ ├── 06_OOP/ — Object-oriented programming
-│ └── 07_File_Handling/ — Files and I/O
+│   ├── Core Python concepts
+│   ├── OOP fundamentals
+│   └── Logical problem solving
 │
-├── NumPy/ — Numerical computing with arrays
-│ ├── 01_Array_Creation/
-│ ├── 02_Indexing_Slicing/
-│ └── 03_Vectorization/
+├── NumPy/
+│   ├── Array operations
+│   ├── Vectorized computation
+│   └── Numerical processing
 │
-├── Pandas/ — Data manipulation with Pandas
-├── Visualization/ — Data visualization
-│ ├── Matplotlib/
-│ └── Seaborn/
+├── Pandas/
+│   ├── Data loading
+│   ├── Data cleaning
+│   ├── Filtering and transformations
 │
-├── ML/ — Machine Learning basics
-│ ├── Regression/
-│ └── Classification/
+├── Visualization/
+│   ├── Matplotlib
+│   ├── Seaborn
+│   └── Exploratory data visualization
 │
-├── SQL/ — SQL basics and queries
-└── README.md
-
+├── Machine Learning/
+│   ├── Regression models
+│   ├── Classification models
+│   └── Model evaluation basics
+│
+└── Misc/
+    └── Practice files and experiments
 
 ---
 
-## 🚀 What’s Inside
+## Key Topics Covered
 
-✔ **Python fundamentals** — Core programming skills  
-✔ **NumPy & Pandas practice** — Data manipulation essentials  
-✔ **Visualizations** — Graphs using Matplotlib & Seaborn  
-✔ **Machine Learning basics** — Regression & classification models  
-✔ **SQL folder** — Foundational SQL queries  
-✔ **Topic-wise code** — Cleaner structure and real examples
-
-This structure helps recruiters quickly explore sections of your knowledge. :contentReference[oaicite:2]{index=2}
+- Python programming for data analysis
+- Numerical computation using NumPy
+- Data manipulation using Pandas
+- Data visualization for exploratory analysis
+- Introductory machine learning models
+- Practical experimentation and debugging
 
 ---
 
-## 💻 How to Use
+## Tools & Technologies
 
-1. Clone this repository:
-   ```bash
+- Language: Python
+- Libraries:
+  - NumPy
+  - Pandas
+  - Matplotlib
+  - Seaborn
+  - Scikit-learn
+- Environment:
+  - Jupyter Notebook
+  - VS Code
+  - Google Colab
+
+---
+
+## How to Use This Repository
+
+1. Clone the repository:
    git clone https://github.com/rohitranvir/Data-Science.git
 
-2. Install Python and packages (NumPy, Pandas, Matplotlib, Seaborn, Scikit-Learn):
-   pip install numpy pandas matplotlib seaborn scikit-learn
+2. Open notebooks using:
+   - Jupyter Notebook
+   - VS Code
+   - Google Colab
 
-3. Open Jupyter Notebook or VS Code to explore each topic.
-   🛠 Tools & Technologies
-   ✔ Python (core)
-   ✔ Jupyter Notebook
-   ✔ NumPy
-   ✔ Pandas
-   ✔ Matplotlib
-   ✔ Seaborn
-   ✔ Scikit-Learn
-   
-📫 Connect With Me
+3. Run files topic by topic rather than randomly.
 
-GitHub: https://github.com/rohitranvir
+---
 
+## Important Notes & Limitations
+
+- This repository is not production-ready
+- Code quality varies because it reflects learning stages
+- Some notebooks may:
+  - Lack documentation
+  - Contain experimental or redundant code
+  - Focus more on understanding than optimization
+
+These limitations are intentional for learning purposes.
+
+---
+
+## Intended Audience
+
+- Beginners learning Data Science fundamentals
+- Students revising Python, NumPy, and Pandas
+- Recruiters reviewing learning consistency and technical progression
+- Self-learners who value concept clarity over shortcuts
+
+---
+
+## Future Improvements
+
+- Add detailed README files inside each folder
+- Improve notebook documentation
+- Add EDA-focused datasets
+- Introduce advanced ML and deep learning sections
+
+---
+
+## Author
+
+Rohit Ranvir  
+Bachelor of Engineering (2025)  
+Focused on Data Science, AI, and backend-oriented system understanding
+
+GitHub: https://github.com/rohitranvir  
 LinkedIn: https://www.linkedin.com/in/rohit-ranveer
-
-⚠️ Note
-
-This is a living repository — I will continue to improve examples and add advanced topics (like Pandas projects, ML models, SQL practice, and more) over time.
