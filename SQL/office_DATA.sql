@@ -1,37 +1,23 @@
-create table ashokit_dept(
-    dept_id varchar(10) primary key,
-    dept_name varchar(50) unique not null
-);
 SELECT * FROM ASHOKIT_DEPT;
-create table ashokit_managers(
-    manager_id varchar(10) primary key,
-    manager_name varchar(50) not null,
-    dept_ID varchar(10) ,
-    constraint fk_deptID
-    foreign key (dept_ID) REFERENCES ashokit_dept(dept_id)
-);
+SELECT * FROM ASHOKIT_PROJECTS;
 SELECT * FROM ASHOKIT_MANAGERS;
-insert into ashokit_managers values('&manager_id','&manager_name','&dept_id');
-create table ashokit_emp(
-    emp_id varchar(10) primary key,
-    emp_name varchar(50) not null,
-    salary number not null,
-    dept_id varchar(10), 
-    manager_id varchar(10),
-    constraint fk_dptid
-    foreign key (dept_id)
-    references ashokit_dept(dept_id),
-    CONSTRAINT fk_mgr
-    foreign key (manager_id)
-    references ashokit_managers(manager_id)
-);
+SELECT * FROM ASHOKIT_EMP;
 
+select ae.emp_name,ad.dept_name from ashokit_emp ae join ashokit_dept ad on ae.dept_id =ad.dept_id;
 
-INSERT INTO ASHOKIT_EMP VALUES('&EMP_ID','&emp_name',&salary,'&dept_id','&manager_id');
-create table ashokit_projects(
-    project_id varchar(10),
-    project_name varchar(50),
-    team_member_id varchar(50)
-)
-SELECT * from ashokit_projects;
-insert into ashokit_projects values('&project_id','&project_name','&team_momber_id');
+-- Display employee name and departname ,emp name,manager name  belonging too
+
+SELECT * FROM ASHOKIT_EMP;  //----ename
+SELECT * FROM ASHOKIT_DEPT; //---department name
+SELECT * FROM ASHOKIT_MANAGERS; //--manager name
+-- Common column bet emp and dept  is dept_id
+--Common coluumn bet dept and managers is dept_id
+--Common coluumn bet emp and managers is manager_id and dept_id
+
+--Writing Sql Query
+select emp_id,emp_name,dept_name,manager_name 
+from ashokit_emp ae join ashokit_dept ad on ae.dept_id = ad.dept_id 
+join ashokit_managers am ON am.manager_id=ae.manager_id
+order by emp_id ASC; 
+
+select ae.emp_id,ae.emp_name,ad.dept_name from ashokit_emp ae left join ashokit_dept ad on ae.dept_id=ad.dept_id order by ae.emp_id asc;
