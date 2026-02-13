@@ -1,0 +1,6 @@
+start_jupyter.bat 
+venv/
+__pycache__/
+*.pyc
+.env
+.ipynb_checkpoints/

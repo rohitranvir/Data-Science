@@ -1,0 +1,31 @@
+{
+    "email_config": {
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": 587,
+        "email_from": "rohitranveer358@gmail.com",
+        "email_to": "rohitranveer358@gmail.com",
+        "password": "9527@9258"
+    },
+    "sources": [
+        {
+            "name": "Example Portal",
+            "url": "https://nokari.com/jobs/api",
+            "type": "api",
+            "parser": "custom_parser_func   tion"
+        },
+        {
+            "name": "Company Careers",
+            "url": "https://company.com/careers",
+            "type": "html",
+            "selectors": {
+                "job_container": ".job-listing",
+                "title": "h2.job-title",
+                "company": ".company-name",
+                "location": ".job-location",
+                "experience": ".experience",
+                "url": "a.apply-link",
+                "date": ".posting-date"
+            }
+        }
+    ]
+}
