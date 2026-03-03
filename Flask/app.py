@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask,request
 app=Flask(__name__)
 items=[
             {
@@ -11,6 +11,14 @@ items=[
             }
 ]
 
+
 @app.get('/get-items')
 def get_items():
     return {"items":items}
+
+
+@app.post('/add-items')
+def add_items():
+    request_data=request.get_json()
+    items.append(request_data)
+    return {"message":"item added successfully"}
