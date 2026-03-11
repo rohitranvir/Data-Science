@@ -1,5 +1,5 @@
 """
-URL configuration for firstproject project.
+URL configuration for templateproject project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.2/topics/http/urls/
@@ -16,13 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from jobsapp import views
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hyderabad/', views.hyd_jobs_info),
-    path('bangalure/', views.bng_jobs_info),
-    path('pune/', views.pune_jobs_info),
-    path('bihar/', views.bihar_jobs_info),
-
 ]
- 
