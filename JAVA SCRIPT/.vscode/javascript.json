@@ -1,0 +1,22 @@
+{
+    "IMPORTANT Comment": {
+        "prefix": "!i",
+        "body": "// IMPORTANT: $1",
+        "description": "IMPORTANT comment tag"
+    },
+    "TODO Comment": {
+        "prefix": "!t",
+        "body": "// TODO: $1",
+        "description": "TODO comment tag"
+    },
+    "NOTE Comment": {
+        "prefix": "!n",
+        "body": "// NOTE: $1",
+        "description": "NOTE comment tag"
+    },
+    "BUG Comment": {
+        "prefix": "!b",
+        "body": "// BUG: $1",
+        "description": "BUG comment tag"
+    }
+}
