@@ -3,6 +3,15 @@
     "better-comments.highlightPlainText": false,
     "better-comments.tags": [
         {
+            "tag": "!",
+            "color": "#00FF00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "#000000",
+            "bold": true,
+            "italic": false
+        },
+        {
             "tag": "IMPORTANT",
             "color": "#ffffff",
             "strikethrough": false,

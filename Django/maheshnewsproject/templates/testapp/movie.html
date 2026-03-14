@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/demo.css'%}">
+</head>
+<body>
+<h1>{{head_msg}}</h1>
+<ul>
+    <li>{{sub_msg1}}</li>
+    <li>{{sub_msg2}}</li>
+    <li>{{sub_msg3}}</li>
+</ul>
+    <img src="{% static 'images/mov.jpg' %}" alt="">
+    <img src="{% static 'images/mov1.jpg' %}" alt="">
+    <img src="{% static 'images/movie2.jpg' %}" alt="">
+</body>
+</html>
