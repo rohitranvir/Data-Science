@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Students</title>
+</head>
+<body>
+
+{% if my_list %}
+<table border="1">
+    <thead>
+        <tr>
+            <th>Rollno</th>
+            <th>Name</th>
+            <th>DOB</th>
+            <th>Marks</th>
+            <th>Email</th>
+            <th>Phone</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        {% for stu in my_list %}
+        <tr>
+            <td>{{ stu.rollno }}</td>
+            <td>{{ stu.name }}</td>
+            <td>{{ stu.dob }}</td>
+            <td>{{ stu.marks }}</td>
+            <td>{{ stu.email }}</td>
+            <td>{{ stu.phonenumber }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% else %}
+<p>No record found</p>
+{% endif %}
+
+</body>
+</html>

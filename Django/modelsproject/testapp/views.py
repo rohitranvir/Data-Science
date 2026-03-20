@@ -6,5 +6,4 @@ from django.http import HttpResponse
 def Employee_view(request):
     emp_list=Employee.objects.all()
     my_dict={"emp_list":emp_list}
-
-    return render(request,'testapp/emp.html',my_dict)
+    return render(request,  'testapp/emp.html',my_dict)

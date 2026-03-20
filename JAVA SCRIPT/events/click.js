@@ -39,15 +39,57 @@
 // })
 
 
-let genraterandomval = () => {
-    return Math.random() * 255
-}
-let button = document.querySelector("button")
-let body = document.querySelector("body")
-button.addEventListener("click", () => {
-    body.style.backgroundColor = `rgb(${genraterandomval()},${genraterandomval()},${genraterandomval()})`
+// let genraterandomval = () => {
+//     return Math.random() * 255
+// }
+// let button = document.querySelector("button")
+// let body = document.querySelector("body")
+// button.addEventListener("click", () => {
+//     body.style.backgroundColor = `rgb(${genraterandomval()},${genraterandomval()},${genraterandomval()})`
+// })
+// button.addEventListener("click", () => {
+//     button.style.backgroundColor = `rgb(${genraterandomval()},${genraterandomval()},${genraterandomval()})`
+//     button.style.color = `rgb(${genraterandomval()},${genraterandomval()},${genraterandomval()})`
+// })
+
+
+let sec = document.querySelector("section")
+document.body.addEventListener("mousemove", (e) => {
+    // console.log(e.clientX);
+    // console.log(e.clientY);
+    sec.style.top = `${e.clientY}px`
+    sec.style.left = `${e.clientX}px`
+
+
 })
-button.addEventListener("click", () => {
-    button.style.backgroundColor = `rgb(${genraterandomval()},${genraterandomval()},${genraterandomval()})`
-    button.style.color = `rgb(${genraterandomval()},${genraterandomval()},${genraterandomval()})`
+let form = document.querySelector("form")
+let input = document.querySelector("input")
+// form.addEventListener("input", (e) => {
+//     e.preventDefault()
+//     console.log(input.value);
+//     input.value = ""
+
+// })
+
+
+form.addEventListener("input", () => {
+    console.log(input.value);
+})
+
+// ! Key board events
+
+input.addEventListener("keyup", () => {
+    console.log("Key up")
+})
+input.addEventListener("keydown", () => {
+    console.log("Key down")
+})
+window.addEventListener("load", () => {
+    document.body.style.backgroundColor = "red"
+})
+window.addEventListener("scroll", () => {
+    document.body.style.backgroundColor = "blue"
+})
+window.addEventListener("resize", () => {
+    document.body.style.backgroundColor = "pink"
 })
