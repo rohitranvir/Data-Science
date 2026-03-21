@@ -1,4 +1,14 @@
 {
+    "Quick Important": {
+        "prefix": "!",
+        "body": "// !${1:Important}",
+        "description": "Quick important marker"
+    },
+    "Quick Author/Ref": {
+        "prefix": "@",
+        "body": "// @${1:Reference}",
+        "description": "Quick author/reference marker"
+    },
     "IMPORTANT Comment": {
         "prefix": "!i",
         "body": "// IMPORTANT: $1",
@@ -18,5 +28,25 @@
         "prefix": "!b",
         "body": "// BUG: $1",
         "description": "BUG comment tag"
+    },
+    "FIXME Comment": {
+        "prefix": "!f",
+        "body": "// FIXME: $1",
+        "description": "FIXME comment tag"
+    },
+    "HACK Comment": {
+        "prefix": "!h",
+        "body": "// HACK: $1",
+        "description": "HACK/Workaround comment"
+    },
+    "DEBUG Comment": {
+        "prefix": "!d",
+        "body": "// DEBUG: $1",
+        "description": "DEBUG comment tag"
+    },
+    "Section Header": {
+        "prefix": "##",
+        "body": "//====================================\n//${1:Section Title}\n//====================================",
+        "description": "Section header divider"
     }
 }
