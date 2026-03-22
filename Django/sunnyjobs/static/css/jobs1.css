@@ -1,0 +1,26 @@
+.container{
+    margin-top:150px;
+    text-align:center;
+
+}
+.container .jumbotron{
+    background:red;
+    color:white;
+}
+.jumbotron a{
+    background:yellow;
+    color:red;
+    border:2px
+}
+table{
+background:red;
+color:yellow;
+margin:auto;
+font-size:20px;
+}
+#specialp{
+    color:red;
+
+    text-align:center;
+    font-size:50px;
+}
