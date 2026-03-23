@@ -1,5 +1,5 @@
 """
-URL configuration for sunnyjobs project.
+URL configuration for formsproject project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.2/topics/http/urls/
@@ -19,8 +19,6 @@ from django.urls import path
 from testapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-path('', views.home_page_views),
-path('hydjobs/', views.hyd_jobs_view),
-path('punejobs/', views.pune_jobs_view),
-path('bangjobs/', views.bang_jobs_view),
+path('temp/', views.stu_inp_fields),
+
 ]

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{% load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/demo.css' %}">
+</head>
+<body>
+<h1>Student Forms</h1>
+<div class="container" align="center">
+    <form method="post">
+        {{form}}
+        <input type="submit" value="Submit">
+    </form>
+</div>
+</body>
+</html>

@@ -4,14 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{% static 'css/jobs1.css' %} ">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!--    <link rel="stylesheet" href="{% static 'css/jobs1.css' %} ">-->
 </head>
 <body>
     <h1>Hyderabad jobs information</h1>
 {% if jobs_list %}
-    <table border="2">
-        <thead>
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
         <th>Date</th>
         <th>Complany</th>
         <th>Title</th>
@@ -36,5 +37,7 @@
 {% else%}
     <p id="specialp">Sorry Boss No Jobs in hyderabad.........</p>
 {% endif %}
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
