@@ -7,6 +7,7 @@ def feedbackform(request):
     rollno=""
     email=""
     feedback=""
+    result=""
     if request.method=="POST":
         form=Feedback(request.POST)
         if form.is_valid():
@@ -14,11 +15,16 @@ def feedbackform(request):
             print(form.cleaned_data['rollno'])
             print(form.cleaned_data['email'])
             print(form.cleaned_data['feedback'])
+            result="Form validation successfull "
             name=form.cleaned_data['name']
             rollno=form.cleaned_data['rollno']
             email=form.cleaned_data['email']
             feedback=form.cleaned_data['feedback']
             submited = True
+        else:
+            print("form validation faild")
+    if submited==False:
+        result="Form validation Failed"
     form=Feedback()
-    my_dict={'form':form,'submited':submited,'name':name,'rollno':rollno,'email':email,'feedback':feedback}
+    my_dict={'form':form,'submited':submited,'name':name,'rollno':rollno,'email':email,'feedback':feedback,"result":result}
     return render(request,'testapp/index.html',my_dict)

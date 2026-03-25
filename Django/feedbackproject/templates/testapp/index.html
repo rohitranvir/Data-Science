@@ -18,6 +18,7 @@
 </div>
 {% else %}
 <h1>Fill The Form</h1>
+<h1>{{result}}, Length can not be less than 4</h1>
 {% endif %}
 <form method="post">
     {% csrf_token %}
