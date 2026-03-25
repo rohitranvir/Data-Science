@@ -9,8 +9,15 @@
 <body>
 <h1>Student Forms</h1>
 <div class="container" align="center">
+    {% if submited %}
+        <h1>Student with name : {{sname}} Processed successfully</h1>
+        <h2>Enter a next student information </h2><hr>
+    {% else %}
+    <h1>Student Input form</h1>
+    {% endif %}
     <form method="post">
-        {{form}}
+        {{form.as_p}}
+        {% csrf_token %}
         <input type="submit" value="Submit">
     </form>
 </div>

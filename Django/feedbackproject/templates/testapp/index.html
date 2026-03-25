@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="{% static 'css/demo.css' %}">
+</head>
+<body>
+
+{% if submited %}
+<div class="container">
+    <h1>Submitted Details</h1>
+    <p><strong>Name:</strong> {{ name }}</p>
+    <p><strong>Roll No:</strong> {{ rollno }}</p>
+    <p><strong>Email:</strong> {{ email }}</p>
+    <p><strong>Feedback:</strong> {{ feedback }}</p>
+</div>
+{% else %}
+<h1>Fill The Form</h1>
+{% endif %}
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <!-- Show validation errors -->
+    {{ form.errors }}
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>
