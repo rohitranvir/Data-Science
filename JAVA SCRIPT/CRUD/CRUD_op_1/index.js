@@ -15,6 +15,9 @@ let gettaskdata=async ()=>{
         editbtn.innerText="Edit";
         delbtn.innerText="Delete";
         //! Assigning the function
+        editbtn.addEventListener("click",()=>{
+            updatedata(element)
+        })
         delbtn.addEventListener("click",()=>{
             deleteTask(element.id)
         })
@@ -40,7 +43,7 @@ let details={
 }
 addTask(details)
 })
-
+ 
 // ! Create  the task
 let addTask=async(data)=>{
     await fetch("http://localhost:3000/tasks",{
@@ -60,3 +63,11 @@ let deleteTask=async(id)=>{
 
 }
 
+let updatedata=async(element)=>{
+    let task=document.getElementsByName("name")
+    let description=document.getElementsByName("description")
+    console.log(task);
+    console.log(description);
+    task[0].value=element.title;
+    description[0].value=element.task;
+}
