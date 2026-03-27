@@ -3,13 +3,15 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: Yellow;
+    color: red;
 }
 
 /* Heading */
 h1 {
     text-align: center;
     margin-top: 20px;
+    color: red;
 }
 
 /* Container for submitted data */
@@ -46,7 +48,7 @@ form select {
     width: 100%;
     padding: 8px;
     margin: 8px 0;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 4px;
 }
 

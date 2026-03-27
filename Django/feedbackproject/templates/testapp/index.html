@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="{% static 'css/demo.css' %}">
 </head>
 <body>
-
 {% if submited %}
 <div class="container">
     <h1>Submitted Details</h1>
@@ -18,13 +17,12 @@
 </div>
 {% else %}
 <h1>Fill The Form</h1>
-<h1>{{result}}, Length can not be less than 4</h1>
+<h1>{{result}}</h1>
 {% endif %}
 <form method="post">
     {% csrf_token %}
     {{ form.as_p }}
     <!-- Show validation errors -->
-    {{ form.errors }}
     <button type="submit">Submit</button>
 </form>
 </body>

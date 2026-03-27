@@ -22,9 +22,10 @@ def feedbackform(request):
             feedback=form.cleaned_data['feedback']
             submited = True
         else:
-            print("form validation faild")
+            result = "form validation faild"
     if submited==False:
         result="Form validation Failed"
-    form=Feedback()
+    if request.method != "POST":
+        form = Feedback()
     my_dict={'form':form,'submited':submited,'name':name,'rollno':rollno,'email':email,'feedback':feedback,"result":result}
     return render(request,'testapp/index.html',my_dict)
