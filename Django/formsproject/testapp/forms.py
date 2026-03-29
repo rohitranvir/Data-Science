@@ -7,5 +7,5 @@ class StudentForms(forms.Form):
     def clean_name(self):
         nam=self.cleaned_data["name"]
         if len(nam)<4:
-            raise forms.ValidationError("Name length must me grether than 3")
+            raise forms.ValidationError("Name length must me greater than 3")
         return nam
