@@ -1,5 +1,5 @@
 """
-URL configuration for modelformproject project.
+URL configuration for movieproject project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/6.0/topics/http/urls/
@@ -19,5 +19,7 @@ from django.urls import path
 from testapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('stu/', views.student_view),
+    path('',views.index_view),
+path('movielist/',views.list_movies),
+path('addmovie/',views.add_movie)
 ]

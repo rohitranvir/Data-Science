@@ -1,11 +1,11 @@
 from django import forms
 
-from testapp.models import student
+from testapp.models import Student
 
 
 class Studentform(forms.ModelForm):
     name=forms.CharField()
     marks=forms.IntegerField()
     class Meta:
-        model=student
+        model=Student
         fields='__all__'
