@@ -1,0 +1,14 @@
+.Mydiv{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    /* height: 200px; */
+}
+.MovieLine{
+    display: flex;
+    gap: 20px;
+}

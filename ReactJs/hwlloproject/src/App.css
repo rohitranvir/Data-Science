@@ -1,4 +1,4 @@
-.counter {
+/* .counter {
   font-size: 16px;
   padding: 5px 10px;
   border-radius: 5px;
@@ -181,4 +181,22 @@
     right: 0;
     border-right-color: var(--border);
   }
+} */
+
+
+
+.header{
+  color: rgb(233, 13, 13);
+  text-align: center;
+}
+.mydiv{
+  /* align-items: center; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+img{
+  height: 500px;
+  width: 600px;
 }
