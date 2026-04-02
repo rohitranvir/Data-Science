@@ -1,0 +1,16 @@
+h1{
+color:red;
+text-align:center;
+}
+.navbar{
+    background:yellow;
+    display:flex;
+
+}
+.navbar .a{
+color:blue;
+
+}
+li a{
+color:red;
+}

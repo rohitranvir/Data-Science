@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/advt.css' %}">
+</head>
+<body>
+<nav class="navbar">
+    <a class="navbar" href="/">Mahesh News</a>
+    <div class="container">
+        <ul class="navbar-nav">
+             <li><a class="navbar" href="/movie">Movies</a></li>
+             <li><a class="navbar" href="/sport">Sport</a></li>
+             <li><a class="navbar" href="/politics">Politics</a></li>
+        </ul>
+    </div>
+<!--    <a class="navbar" href="#">Mahesh News</a>-->
+<!--    <a class="navbar" href="#">Mahesh News</a>-->
+<!--    <a class="navbar" href="#">Mahesh News</a>-->
+</nav>
+{% block child_block%}
+{% endblock %}
+</body>
+</html>
