@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/demo.css' %}">
+</head>
+<body>
+<!--    <h1>hiii................</h1>-->
+{% load cust_filters %}
+{% for record in records %}
+    <h1>{{record.name}} Information</h1>
+    <ul>
+        <li>{{record.name | ffu}}</li>
+        <li>{{record.subject | fnu:5}}</li>
+        <li>{{record.dept | title}}</li>
+        <li>{{record.date | date:'m-d-Y'}}</li>
+    </ul>
+<hr>
+{% endfor %}
+</body>
+</html>

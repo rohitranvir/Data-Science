@@ -5,5 +5,5 @@ function Movie(){
             <h2>Vincenzo</h2>
         </div>
     )
-}
+}   
 export default Movie
