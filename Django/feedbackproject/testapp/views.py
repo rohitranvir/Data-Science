@@ -34,4 +34,4 @@ def feedbackform(request):
     if request.method != "POST":
         form = Feedback()
     my_dict={'form':form,'submited':submited,'name':name,'rollno':rollno,'email':email,'feedback':feedback,"result":result,'rpassword':rpassword,'password':rpassword}
-    return render(request,'testapp/index.html',my_dict)
+    return render(request,'testapp/home.html',my_dict)

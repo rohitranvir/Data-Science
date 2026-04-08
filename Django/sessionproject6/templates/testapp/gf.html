@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>HI Your age {{age}} and name is {{name}} , Please provide your gf name</h1>
+<form action="/result">
+    {{form}}
+    {% csrf_token%}
+    <input type="submit" value="Enter">
+</form>
+</body>
+</html>

@@ -4,7 +4,7 @@ from typing_extensions import type_repr
 
 # Create your views here.
 def news_info(request):
-    return render(request,'testapp/index.html')
+    return render(request,'testapp/home.html')
 def movie_view(request):
     head_msg="Movies information"
     msg1="Jailer was supper movie"

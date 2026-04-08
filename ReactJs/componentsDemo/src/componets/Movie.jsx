@@ -1,6 +1,6 @@
 function Movie(param) {
 return (
-        <div className="Movie">
+    <div className="Movie">
          <img src={param.imgLink}
          />
          <h2>{param.title}</h2>

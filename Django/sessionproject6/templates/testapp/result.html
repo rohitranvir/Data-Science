@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<h1>  Hi {{name}}  your age is {{age}} and your gf is {{gf}}</h1>-->
+{% if request.session %}
+    <h1>Thsnks for providing information please confirm once ....</h1>
+    <ul>
+        {% for key,val in request.session.items%}
+        <li>{{key|upper}}:{{val|title}}</li>
+        {% endfor%}
+    </ul>
+{% else %}
+    <p>Sorry Boss No information ..</p>
+{% endif %}
+</body>
+
+</html>

@@ -4,4 +4,4 @@ from testapp.models import temp
 def temp_view(request):
     my_list=temp.objects.all()
     my_dict={"my_list":my_list}
-    return render(request,'testapp/index.html',my_dict)
+    return render(request,'testapp/home.html',my_dict)

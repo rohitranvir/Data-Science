@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<h1>{{name}}</h1>-->
+<!--<h1>{{gfname}}</h1>-->
+<!--<h1>{{age}}</h1>-->
+{% if request.COOKIES %}
+{%for key,val in request.COOKIES.items %}
+{%if key != "csrftoken"%}
+    <ul>
+        <li>{{key|upper}}:{{val|title}}</li>
+    </ul>
+{% endif %}
+{%endfor %}
+{% else %}
+<p>Sorry Boss no information....</p>
+{% endif%}
+</body>
+</html>
