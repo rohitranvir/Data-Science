@@ -8,13 +8,13 @@
 <body>
 <div class="container" align="center">
 <h1>Add item Form</h1>
-<form action="" method="post">
+<form action="" method="POST">
     {{form.as_p}}
     {% csrf_token%}
     <input type="submit" value="Add item">
 </form>
     <br>
-    <a href="#" class="btn btn-primary btn-lg"> Display Items</a>
+    <a href="/display" class="btn btn-primary btn-lg"> Display Items</a>
     </div>
 </body>
 </html>
