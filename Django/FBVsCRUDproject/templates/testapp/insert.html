@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+{% extends 'testapp/base.html' %}
+
+{% block bodyblock %}
+<h1>Employee insert Form</h1>
+<form method="post">
+    {{form}}
+    {% csrf_token %}
+    <input class="btn btn-success btn-lg" type="submit" value="Insert Record">
+</form>
+{% endblock %}

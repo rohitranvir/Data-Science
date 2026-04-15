@@ -38,7 +38,7 @@ return(
               <div>
               <h1 className='text-3xl'>{pokdetails.name}</h1>
               <p className='text-2xl'>{pokdetails.height}</p>
-              <p className='text-2xl'>{pokdetails.weight}</p>
+              <p className='text-2xl'>{pokdetails.weight}</p> 
               </div>
             
               </>
