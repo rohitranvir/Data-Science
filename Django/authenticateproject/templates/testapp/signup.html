@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% extends 'testapp/base.html' %}
+{% block body_block %}
+<div class="bg-light p-5 rounded">
+    <div class="container" align="center">
+        <h1>Please login to write exam</h1>
+        <form method="post">
+<!--            No need to create extra from module AUTH apppication will take care-->
+            {{form.as_p}}
+            {% csrf_token%}
+            <input type="submit" value="Signup">
+        </form>
+    </div>
+</div>
+{% endblock %}

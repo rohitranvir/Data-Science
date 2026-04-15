@@ -1,8 +1,8 @@
 """
-URL configuration for authenticateproject project.
+URL configuration for FBVsCRUDproject project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/5.0/topics/http/urls/
+    https://docs.djangoproject.com/en/6.0/topics/http/urls/
 Examples:
 Function views
     1. Add an import:  from my_app import views
@@ -15,16 +15,9 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path,include
+from django.urls import path
 from testapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-path('',views.home_view ),
-path('java/',views.java_view ),
-path('python/',views.python_view ),
-path('aptitude/',views.aptitude_view),
-path('login/',views.aptitude_view),
-path('accounts/',include('django.contrib.auth.urls')),
-path('logout/',views.logout_view),
-path('signup/',views.Signup_view),
+path('', views.retrive_view)
 ]
