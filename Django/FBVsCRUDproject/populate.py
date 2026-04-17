@@ -19,5 +19,5 @@ def populate(n):
             esal=fsal,
             addrs=faddr
         )
-populate(5)
+populate(100)
 print("Record Inserted successfully")
