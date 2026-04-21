@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>This information from customized template file</h1>
+<div class="container">
+    {%for book in books%}
+    <ul>
+        <li>Title : {{book.title}}</li>
+        <li>Auther : {{book.auther}}</li>
+        <li>Pages : {{book.pages}}</li>
+        <li>Price : {{book.price}}</li>
+    </ul>
+    {%endfor%}
+</div>
+</body>
+</html>
