@@ -1,0 +1,32 @@
+===== Importing Flask to create a webapp =====
+from flask import Flask
+
+=== Create the app instance ===
+
+we will not call the function name 
+we will use app.run() command to triger the function
+
+        app=Flask(__name__)
+
+
+==== Creating the routing =====
+@app.route("/")
+    we will trigger the url which activates the home function the we called decorator 
+
+"/"  indicates the main page for example the url is run 127.0.0.0.8000
+"/"  ==>>      127.0.0.0.8000
+"/greet1" ==>  127.0.0.0.8000/greet1
+"/greet2" ==>  127.0.0.0.8000/greet2
+"/greet1/greet2" ==>  127.0.0.0.8000/greet1/greet2
+
+
+==== Make sure the file is running independently
+
+if __name__="__main__":
+
+===== run the app instance ======
+app.run(debug=True)
+
+it will pick default localhost port 
+        https:127.0.0.1.5000/
+debug=True ===> file automatically run if we do any changes and save the changes 
