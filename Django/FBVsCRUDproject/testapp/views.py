@@ -29,5 +29,5 @@ def insert_view(request):
         form=EmployeeForm(request.POST)
         form.save()
         return redirect('/')
-    form=EmployeeForm
+    form=EmployeeForm()
     return render(request,'testapp/insert.html',{'form':form})

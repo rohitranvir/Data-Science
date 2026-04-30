@@ -1,8 +1,8 @@
 """
-URL configuration for CBVproject2 project.
+URL configuration for cbvproject3 project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/5.0/topics/http/urls/
+    https://docs.djangoproject.com/en/6.0/topics/http/urls/
 Examples:
 Function views
     1. Add an import:  from my_app import views
@@ -16,11 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+
 from testapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.BookListView.as_view()),
-# path('list2/',views.BookDetailView.as_view()),
-path('list2/',views.BookListView.as_view()),
-path('<int:pk>/',views.BookDetailView.as_view())
+path('tt/', views.TemplateCBV.as_view()),
+path('cbv/', views.HelloWorldView.as_view()),
+path('cbv2/', views.TemplateCBV2.as_view()),
+
 ]
