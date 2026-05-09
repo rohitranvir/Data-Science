@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+{% extends 'testapp/base.html'%}
+{% block body_block%}
+<h1>List of all Companies</h1>
+<ul>
+    {%for company in company_list%}
+    <li><a href="{{company.id}}">{{company.name}}</a></li>
+<!--    <li>{{company.location}}</li>-->
+<!--    <li>{{company.ceo}}</li>-->
+    {%endfor%}
+</ul>
+{% endblock %}

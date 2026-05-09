@@ -9,4 +9,5 @@ urlpatterns = [
     path('create/', views.BookCreateView.as_view()),
     path('update/<int:pk>/', views.BookUpdateView.as_view(), name='updatebook'),
     path('<int:pk>/', views.BookDetailView.as_view(), name='detail'),  # put LAST
+    path('delete/<int:pk>/', views.BookDeleteView.as_view(), name='delete'),
 ]
