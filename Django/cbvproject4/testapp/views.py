@@ -7,6 +7,10 @@ class CompanyDetailView(DetailView):
 class CompanyCreateView(CreateView):
     model=Company
     fields='__all__'
-class CompanyUpdateCIew(UpdateView):
+class CompanyUpdateView(UpdateView):
     model=Company
     fields='__all__'
+from django.urls import reverse_lazy
+class CompanyDeleteView(DeleteView):
+    model=Company
+    success_url =reverse_lazy('list')
