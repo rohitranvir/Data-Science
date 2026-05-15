@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e27a19de-cc04-413c-9165-5cd7dbaf6e97" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../CBVproject/templates/testapp/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CBVproject2/templates/testapp/Book.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CBVproject2/templates/testapp/Book_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CBVproject2/templates/testapp/Book_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CBVproject2/templates/testapp/book_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CBVproject2/templates/testapp/book_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FBVsCRUDproject/populate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FBVsCRUDproject/templates/testapp/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FBVsCRUDproject/templates/testapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FBVsCRUDproject/templates/testapp/insert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FBVsCRUDproject/templates/testapp/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FBVsCRUDproject/testapp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authenticateproject/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authenticateproject/templates/testapp/Logout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authenticateproject/templates/testapp/aptitude.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authenticateproject/templates/testapp/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authenticateproject/templates/testapp/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authenticateproject/templates/testapp/javaexam.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authenticateproject/templates/testapp/python.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authenticateproject/templates/testapp/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../authenticateproject/testapp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cbvproject3/templates/testapp/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cbvproject3/templates/testapp/result2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cbvproject4/templates/testapp/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cbvproject4/templates/testapp/company_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cbvproject4/templates/testapp/company_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cbvproject4/templates/testapp/company_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../job_portal/subscription/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../job_portal/users/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../job_portal/users/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../middlewareproject1/testapp/middleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../middlewareproject2/testapp/middleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ormproject/populate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ormproject/templates/testapp/average.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ormproject/templates/testapp/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ormproject/templates/testapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ormproject/templates/testapp/specificcolumns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pagecountproject/templates/testapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pagecountproject/testapp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sessionproject2/templates/testapp/datetime.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sessionproject2/templates/testapp/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sessionproject2/templates/testapp/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sessionproject2/testapp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sessionproject3/templates/testapp/age.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sessionproject3/templates/testapp/gf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sessionproject3/templates/testapp/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sessionproject3/templates/testapp/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sessionproject4/templates/testapp/additem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sessionproject4/templates/testapp/display.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sessionproject4/templates/testapp/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sessionproject4/testapp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sessionproject5/templates/testapp/count.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sessionproject6/templates/testapp/age.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sessionproject6/templates/testapp/gf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sessionproject6/templates/testapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sessionproject6/templates/testapp/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sessionproject6/testapp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sessionproject7/templates/testapp/additem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sessionproject7/templates/testapp/displayitem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sessionproject7/testapp/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedbackproject/testapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../feedbackproject/testapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../filterproject/templates/testapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../filterproject/templates/testapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../filterproject/testapp/templatetags/cust_filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../filterproject/testapp/templatetags/cust_filters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../filterproject/testapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../filterproject/testapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../maheshnewsproject/testapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../maheshnewsproject/testapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modelproject2/testapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../modelproject2/testapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../movieproject/testapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../movieproject/testapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sunnyjobs/testapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../sunnyjobs/testapp/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="3Dj7VOykZ6Y2PNGiQfEdUCRc97n" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Merging main",
+    "last_opened_file_path": "D:/Data-Science/Django/RESTAPI/withoutrest"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-02acdf704d18-cbfc7b97e6b2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.28539.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e27a19de-cc04-413c-9165-5cd7dbaf6e97" name="Changes" comment="" />
+      <created>1778783649968</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1778783649968</updated>
+    </task>
+    <servers />
+  </component>
+</project>
