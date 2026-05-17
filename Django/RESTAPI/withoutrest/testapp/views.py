@@ -6,7 +6,7 @@ from django.views.generic import View
 class jsonCBV(View):
     def get(self,request,*args,**kwargs):
         json_data={
-'msg':'this is from get'
+            'msg':'this is from get'
         }
         return HttpResponse(json.dumps(json_data),content_type='application/json')
     def post(self,request,*args,**kwargs):
