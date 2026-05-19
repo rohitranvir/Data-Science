@@ -15,6 +15,16 @@ from django.views.decorators.csrf import csrf_exempt
 from django.utils.decorators import method_decorator
 @method_decorator(csrf_exempt, name='dispatch')
 class EmployeeCBV(View):
+    def delete(self,request,*args,**kwargs):
+        json_data=request.body
+        stream=io.BytesIO(json_data)
+        pdata=JSONParser().parse(stream)
+        id=pdata.get('id')
+        emp=Employee.objects.get(id=id)
+        emp.delete()
+        msg={'msg':'Records deleted successfully.......'}
+        json_data=JSONRenderer().render(msg)
+        return HttpResponse(json_data,content_type='application/json')
     def get(self,request,*args,**kwargs):
         json_data=request.body
         stream=io.BytesIO(json_data)

@@ -34,4 +34,12 @@ def update_record(id):
     resp=requests.put(BASE_URL+ENDPOINT,data=json.dumps(new_emp))
     print(resp.status_code)
     print(resp.json())
-update_record(1)
+# update_record(1)
+def delete_resource(id):
+    data={
+        'id':id
+    }
+    resp=requests.delete(BASE_URL+ENDPOINT,data=json.dumps(data))
+    print(resp.status_code)
+    print(resp.json())
+delete_resource(1)
