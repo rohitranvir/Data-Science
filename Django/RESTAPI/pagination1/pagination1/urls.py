@@ -1,5 +1,5 @@
 """
-URL configuration for withrest4 project.
+URL configuration for pagination1 project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.2/topics/http/urls/
@@ -15,16 +15,9 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path,include
-from rest_framework.routers import DefaultRouter  
-from rest_framework.authtoken.views import obtain_auth_token   
+from django.urls import path
 from testapp import views
-router=DefaultRouter()
-router.register('api',views.EmployeeViewCrudCBV)
-
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include(router.urls)),
-    path('get-api-token/',obtain_auth_token,name='get-api-token')
-
+    path('api/', views.EmployeeListView.as_view()),
 ]
