@@ -23,4 +23,5 @@ router.register('api', views.EmployeeCBVView)
 urlpatterns = [
     path('admin/', admin.site.urls),
 path('', include(router.urls)),
+path('accounts/', include('django.contrib.auth.urls')),
 ]
